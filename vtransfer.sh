@@ -7,12 +7,12 @@
 #usage           :./vtransfer.sh
 
 ###################Settings#######################################################################
-html_root="/var/www/html"                       #HTML path of your webserver needs to be writeable by script
+html_root="/var/www/html"               #HTML path of your webserver needs to be writeable by script
 json_filename="vcontrold.json"          #Name for the exported json file
 update_interval="60"                    #Fetch data and update file every n seconds
 vcontrold_hostname="localhost"          #Hostname or IP of the host running vcontrold
 vcontrold_port="3002"                   #TCP port of vcontrold usually 3002
-vclient="/usr/local/bin/vclient"        #Vclient binary
+vclient="/usr/local/bin/vclient"        #vclient binary
 command_file="/tmp/vcommand"            #Temporary file for vclienct commands
 
 
